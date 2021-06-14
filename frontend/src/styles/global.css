@@ -1,0 +1,71 @@
+:root {
+    --blue: #4881ee;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+input,
+textarea,
+input::placeholder,
+button,
+select {
+    font-family: "Poppins", sans-serif;
+}
+
+input,
+button,
+textarea,
+select {
+    border: 0;
+    padding: 0;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background-color: #fdfeff;
+}
+
+main {
+    padding: 112px 0;
+}
+
+section {
+    width: 100%;
+    position: relative;
+    margin-bottom: 112px;
+}
+
+section:last-child {
+    margin-bottom: 0;
+}
